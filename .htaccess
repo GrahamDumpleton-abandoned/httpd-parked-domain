@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteCond index.html !-f
+RewriteRule .* index.html
+Header Set Cache-Control "max-age=0, no-store"
